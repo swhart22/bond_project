@@ -1,0 +1,669 @@
+/*reset*/
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	/*font-style: inherit;*/
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}	
+p {
+	padding:10px;
+}
+a {
+	text-decoration:inherit;
+	color:inherit;
+	font-weight:700;
+}
+a:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+/*entire story*/
+body {
+	background-color:#fafafa;
+	/*overflow-x:hidden;*/
+}
+.hover:hover{
+	opacity:.5
+}
+#justice-logo{
+	width: 200px;
+	margin:auto;
+	padding:0px 0px 0px 0px ;
+	float:left;
+	padding-bottom:100px;
+}
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 40px;
+	width:90%;
+	margin-left:5%;
+}
+
+h3	{
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 30px;
+	padding:0px 0px 0px 10px;
+}
+
+.caption{
+	font-family: "proxima-nova",sans-serif;
+	font-size: 14px;
+	width:500px;
+	font-style:italic;
+}
+.caption.narratives{
+	width:60%;
+}
+.image{
+	width:500px;
+}
+.right{
+	float:right;
+	margin-right:-20%;
+}
+.byline{
+	font-style:italic;
+}
+.body-text-wrapper {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size:16px;
+	width:700px;
+	margin:auto;
+	line-height:1.5;
+}
+.narratives-link {
+	background-color:#DBAA4C;
+	color:#fafafa;
+	padding:1px 5px 1px 5px;
+	font-weight:100;
+	font-family: "proxima-nova",sans-serif;
+}
+.pullquote {
+	font-weight:100;
+	font-family: "proxima-nova",sans-serif;
+	font-size:30px;
+	border-top-style:solid;
+	border-top-width:2px;
+	border-top-color:#1A2526;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-bottom-color:#1A2526;
+}
+.pullquote.right{
+	width:350px;
+	float:right;
+	margin-left:10px;
+	margin-right:-30px;
+}
+.pullquote.left{
+	width:350px;
+	float:left;
+	margin-right:10px;
+	margin-left:-30px;
+}
+.pullquote.full {
+	width:100%;
+}
+/*in order of appearance*/
+#scene-00 {
+	background-color:#1A2526;
+	width:100%;
+	height:40px;
+}
+#logo {
+	height:25px; 
+	margin-top:7.5px;
+}
+.social-icon {
+	float:right;
+	margin-top:10px;
+}
+#sb,#do,#pt {
+	font-size:20px;
+	text-transform:uppercase;
+	font-weight:100;
+	font-family: "proxima-nova",sans-serif;
+	color:#fafafa;
+	margin-right:20px;
+}
+#tw {
+	margin-right:10px;
+}
+#fb {
+	margin-right:30px;
+}
+#hed-dek {
+	margin:auto;
+	font-family: "proxima-nova",sans-serif;
+	padding-top:180px;
+	margin-left:15%;
+	width:70%;
+}
+.main-byline{
+	font-family: "proxima-nova",sans-serif;
+	color:#fafafa;
+	font-weight:100;
+} 
+#series {
+	font-family: 'Playfair Display', serif;
+	text-transform:uppercase;
+	font-weight:700;
+	
+	padding:0px 0px 0px 0px;
+}
+#series-style{
+color:#1A2526;
+font-size:35px;
+background-color:#DBAA4C;
+padding:0px 10px 3px 10px;
+border-radius:2px;
+}
+#headline {
+	font-size:90px;
+	font-weight:700;
+	font-family: 'Playfair Display', serif;
+	color:#fafafa;
+	padding:0px 0px 0px 10px;
+}
+#dek {
+	font-style:italic;
+	font-family: "proxima-nova",sans-serif;
+	border-top-color:#DA572A;
+	border-bottom-color:#DA572A;
+	border-top-width:2px;
+	border-bottom-width:2px;
+	border-top-style:solid;
+	border-bottom-style:solid;
+}
+#enter {
+	font-size:25px;
+	text-transform:uppercase;
+	color:#1A2526;
+	background-color:#fafafa;
+	padding:0 3px 0 3px;
+	border-radius: 2px;
+	font-weight:700;
+}
+#story{
+	margin-top:400px;
+}
+#header {
+	width:60%;
+	margin-left:20%;
+}
+#header_responsive{
+	display:none;
+}
+#scene-01 {
+	border-bottom-style:solid;
+	border-bottom-width:8px;
+	border-bottom-color:#1A2526;
+	width:100%;
+	background-color:#1A2526;
+	overflow:hidden;
+}
+#scene-02{
+
+}
+#scene-03  {
+	background-color:#1A2526;
+	padding:10px;
+	border-top-style:solid;
+	border-top-width:8px;
+	border-top-color:#DA572A;
+	border-bottom-style:solid;
+	border-bottom-width:8px;
+	border-bottom-color:#DA572A;
+	overflow:hidden;
+}
+#scene-04{
+
+}
+a#chicago-map-about02:hover {
+	color:#fafafa;
+	text-decoration:underline;
+}
+
+#scene-05 {
+	border-top-style:solid;
+	border-top-width:8px;
+	border-top-color:#DA572A;
+	border-bottom-style:solid;
+	border-bottom-width:8px;
+	border-bottom-color:#DA572A;
+	width:100%;
+	padding:auto;
+	background-image:url("header.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-color:#1A2526;
+}
+
+#scene-06{
+
+}
+#scene-07 {
+	background-color:#fafafa;
+	color:#1A2526;
+	width:100%;
+	overflow:hidden;
+}
+/*chicago stops map*/
+#chicago-map {
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#chicago-map2{
+	width:700px;
+}
+
+#chicago-map-about {
+	
+	font-family: "proxima-nova",sans-serif;
+	color:#fafafa;
+	margin:auto auto auto auto ;
+}
+
+#chicago-map-about01{
+	font-size:25px;
+	font-weight:900;
+	text-transform:uppercase;
+	/*border-bottom-style:dotted;
+	border-bottom-width:1px;
+	border-bottom-color:#fafafa;*/
+}
+
+#chicago-map-about02{
+	font-size:18px;
+	font-weight:100;
+}
+
+.graphic-title {
+	color:#fafafa;
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:center;
+}
+
+.chart-title {
+	font-family:'Playfair Display', serif;
+	font-weight: 500;
+	font-size: 18px;
+	fill:#fafafa;
+}
+
+.maplabels {
+	font-family:"proxima-nova",sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+	fill:#fafafa;
+}
+
+.gradientlabels {
+	font-family:"proxima-nova",sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+	fill:#fafafa;
+}
+
+#sub-title {
+	font-family: "proxima-nova",sans-serif;
+	font-size: 12px;
+	font-style:italic;
+	font-weight:100;
+	width:200px;
+	fill:#fafafa;
+}
+
+#address {
+	font-family: "proxima-nova",sans-serif; 
+	font-size: 14px;
+	font-weight:100;
+	fill:#fafafa;
+}
+#neighborhood {
+	font-family: "proxima-nova",sans-serif; 
+	font-size: 14px;
+	font-weight:100;
+	fill:#fafafa;
+}
+.bar-text {
+	font-family: "proxima-nova",sans-serif; 
+	font-size: 10px;
+	fill:#fafafa;
+}
+
+.label {
+	font-family: "proxima-nova",sans-serif;
+	font-size: 10px;
+	fill:#fafafa;
+}
+
+.bottom-label {
+	font-family: "proxima-nova",sans-serif;
+	font-size: 10px;
+	fill:#fafafa;
+}
+
+
+#x-axis, #y-axis {
+ shape-rendering: crispEdges;
+ stroke:#696969;
+}
+/*narratives graphic*/
+
+#card {
+	padding:0px;
+	border-style:solid;
+	border-width:1px;
+	border-radius:12px;
+	width:900px;
+	margin:auto;
+	background-color:rgba(250,250,250,0.8);
+	margin-bottom:50px;
+}	
+
+#scene-05-opener {
+	color:#fafafa;
+	background-color:rgba(26,37,38,0.6);
+	padding:10px;
+	font-family: "proxima-nova",sans-serif;
+
+}
+
+#card01, #card02, #card03, #card04, #card05, #card06 {
+	font-family: "proxima-nova",sans-serif;
+	margin-left:20px;
+	margin-right:20px;
+}
+#card01 {
+	font-weight:700;
+	text-transform: uppercase;
+	font-size:30px;
+	margin-top:20px;
+}
+
+#card02 {
+	font-weight:100;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	text-transform: uppercase;
+	font-size:20px;
+}
+
+#card03 {
+	font-size:15px;
+	font-weight:100;
+	padding-top:5px;
+}
+
+.textbox{
+	height:300px;
+	font-size:20px;
+	margin: 10px 20px 10px 20px;
+	vertical-align:middle;
+	font-family: "proxima-nova",sans-serif;
+	font-weight:100;
+
+}
+#generate{
+	font-family: "proxima-nova",sans-serif;
+	background-color:#1A2526;
+	border: none;
+	color:#fff;
+	text-transform:uppercase;
+	padding:8px;
+	margin:10px 20px 0px;
+	border-radius:5px;
+	font-size:20px;
+}
+.keyword {
+	color:#1A2526;
+	padding-left:2px 0px 0px 0px;
+	border-bottom-style:dotted;
+	border-bottom-width:1px;
+	background-color:#FFDB58;
+}
+
+.chart-label-02 {
+	font-family: "proxima-nova",sans-serif;
+	font-size: 10px;
+}
+
+/*buttons*/
+.buttons-wrapper {
+	width:900px;
+	margin:auto;
+}
+.special-pull{
+	float:right;
+	font-weight:100;
+	font-family: "proxima-nova",sans-serif;
+	font-size:30px;
+	width:30%;
+}	
+li {
+	list-style:none;
+	font-family: "proxima-nova",sans-serif;
+	font-weight:900;
+	display:block;
+	float:left;
+	margin:.5% .5% 20px 0;
+	padding:5px 0px 5px 0px;
+	font-size:25px;
+	width:24%;
+	background-color:#DBAA4C;
+	color:#fafafa;
+	text-align:center;
+	vertical-align:baseline;
+	border-width:1px;
+	border-style:solid;
+	border-color:#DBAA4C;
+}
+li.active {
+	background-color:#fafafa;
+	color:#1A2526;
+	border-style:solid;
+	border-width:2px;
+	border-radius:1px;
+	border-color:#1A2526;
+	padding:5px 0px 5px 0px;
+}
+.content{
+	
+}
+.inactive {
+	display:none;
+}
+
+
+.buttons-subhead {
+	font-family:'proxima nova', sans-serif;
+	font-weight:900;
+	font-size: 50px;
+}
+.buttons-header-image {
+	width:65%;
+	
+}
+
+.fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe {width: 80% !important;
+margin-left:10% !important;
+}
+
+#bottom-bar{
+	height:250px;
+	width:100%;
+	background-color:#1A2526;
+	overflow:hidden;
+}
+
+#credit-text{
+	font-family: "proxima-nova",sans-serif;
+	color:#fafafa;
+	font-size:15px;
+	margin-top:100px;
+	margin-left:15px;
+}
+/*responsive*/
+@media (max-width: 900px) {
+#header{
+	width:90%;
+	margin-left:5%;
+}
+#justice-logo{
+	padding-bottom:0px;
+}
+	#chicago-map-about {
+	float:none;
+	width:90%;
+	margin-left:5%;
+}
+#card {
+	width:90%;
+	margin-left:5%;
+	height:auto;
+	padding:auto;
+}
+.buttons-wrapper {
+	width:90%;
+	margin-left:5%;
+}
+}
+@media (max-width: 700px) {
+ .body-text-wrapper{
+ 	width:90%;
+ 	margin-left:5%;
+ }
+ .pullquote.right {
+ 	width:90%;
+ 	margin-right:5%;
+ 	float:none;
+ }
+ .pullquote.left{
+ 	width:90%;
+ 	margin-left:5%;
+ 	float:none;
+ }
+ 	.image{
+		width:100%;
+	}
+	.caption{
+		width:90%;
+		margin-left:5%;
+		}
+	.right{
+		margin-right:0%;
+	}
+ #hed-dek {
+	width:90%;
+	margin-left:5%;
+}
+#headline {
+	font-size:40px;
+}
+#chicago-map{
+		width:90%;
+		margin-left:5%;
+	}
+.textbox {
+		height:auto;
+	}
+.fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe {width: 100% !important;
+margin-left:0px !important;
+}
+}
+@media (max-width: 500px){
+	#header{
+		display:none;
+	}
+	#hed-dek{
+		padding-top:40px;
+	}
+	#header_responsive{
+		display:block;
+		width:90%;
+		margin-left:5%;
+		margin-top:200px;
+	}
+	#justice-logo {
+		height:150px;
+		width:150px;
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+		padding-bottom:0px;
+	}
+	#series-style {
+		font-size:15px;
+		padding:0px 3px 0px 3px;
+		margin-left:10px;
+	}
+	#dek{
+		font-size:15px;
+	}
+	#sb {
+		display:none;
+	}
+	.label {
+	font-family: "proxima-nova",sans-serif;
+	font-size: 12px;
+	fill:#fafafa;
+	}
+	#chicago-map{
+		width:100%;
+	}
+	 #do,#pt{
+		font-size:12px;
+		margin-top:14px;
+		margin-right:5px;
+	}
+	.buttons-wrapper li{
+		width:48%;
+		margin:.5% .5% 1px 0;
+	}	
+	.pullquote.left{
+	
+	}
+	.special-pull{
+		float:none;
+		width:90%;
+		margin-left:5%;
+	}
+	.buttons-header-image{
+		width:100%;
+	}
+	.caption.narratives{
+		width:90%;
+		margin-left:5%;
+	}
+	
+}
+@media (max-width: 375px){
+	#hed-dek{
+		padding-top:80px;
+	}
+	#logo {
+	 height:15px;
+	 margin-top:12.5px;
+	}
+
+#header_responsive{
+	display:none;
+}
+	
+}
+/*clearfix*/
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
