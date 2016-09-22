@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>{{ article_headline }}</title>
+        <link rel="stylesheet" href="http://injusticewatch.org/interactives/cops-and-stops/assets/styles.css">
+    </head>
+
+    <body>
+  		<img src='{{ header_image|safe }}'>
+        <h1>{{ article_headline }}</h1>
+        <div class="body-text-wrapper">{{ article_body|safe }}</div>
+
+    </body>
+</html>

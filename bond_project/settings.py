@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bond',
     'redactor',
+    'tinymce',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -124,7 +125,19 @@ USE_TZ = True
 STATICFILES_DIR = [STATIC_DIR,]
 STATIC_URL = '/static/'
 
-#Redactor WSYIGWG editor configuration 
+#Redactor & TinyMCE WSYIGWG editor configuration 
 
 REDACTOR_OPTIONS = {'lang': 'en'}
 REDACTOR_UPLOAD = 'uploads/'
+
+TINYMCE_DEFAULT_CONFIG = {
+    'theme' : 'advanced',
+    'theme_advanced_buttons1' : 'bold,italic,underline,separator,bullist,numlist,separator,link,unlink,separator,code',
+    'theme_advanced_buttons2' : '',
+    'theme_advanced_buttons3' : '',
+    'theme_advanced_toolbar_location' : 'top',
+    'theme_advanced_toolbar_align': 'left',
+    'paste_text_sticky': 'true',
+    'paste_text_sticky_default' : 'true',
+    'valid_styles' : 'font-weight,font-style,text-decoration',
+}

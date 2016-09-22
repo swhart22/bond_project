@@ -28,4 +28,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^(?P<article_headline_slug>[\w\-]+)/$', views.article, name='article'),
     url(r'^redactor/', include('redactor.urls')),
+    url(r'^tinymce/', include('tinymce.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
