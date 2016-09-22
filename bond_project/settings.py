@@ -15,9 +15,10 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
-STATIC_DIR = os.path.join(BASE_DIR, 'static')
-print "Template files path is currently" + TEMPLATE_DIR
-print "Static files path is currently" + STATIC_DIR
+STATICFILES_DIR = os.path.join(BASE_DIR, 'static')
+
+print "Template files path is currently " + TEMPLATE_DIR
+print "Static files path is currently " + STATICFILES_DIR
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
 
@@ -122,7 +123,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
-STATICFILES_DIR = [STATIC_DIR,]
+STATIC_ROOT = ''
+STATICFILES_DIR = [STATICFILES_DIR,]
 STATIC_URL = '/static/'
 
 #Redactor & TinyMCE WSYIGWG editor configuration 
@@ -131,12 +133,13 @@ REDACTOR_OPTIONS = {'lang': 'en'}
 REDACTOR_UPLOAD = 'uploads/'
 
 TINYMCE_DEFAULT_CONFIG = {
+	'height' : 400, 
     'theme' : 'advanced',
     'theme_advanced_buttons1' : 'bold,italic,underline,separator,bullist,numlist,separator,link,unlink,separator,code',
     'theme_advanced_buttons2' : '',
     'theme_advanced_buttons3' : '',
     'theme_advanced_toolbar_location' : 'top',
-    'theme_advanced_toolbar_align': 'left',
+    'theme_advanced_toolbar_align': 'center',
     'paste_text_sticky': 'true',
     'paste_text_sticky_default' : 'true',
     'valid_styles' : 'font-weight,font-style,text-decoration',

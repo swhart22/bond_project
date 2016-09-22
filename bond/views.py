@@ -18,6 +18,7 @@ def article(request, article_headline_slug):
 		article = Article.objects.get(slug=article_headline_slug)
 		context['article_headline'] = article.headline
 		context['article_body'] = article.body
+		context['article_header'] = article.header
 		
 	except Article.DoesNotExist:
 		

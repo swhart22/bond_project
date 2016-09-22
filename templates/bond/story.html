@@ -3,13 +3,13 @@
 <html>
     <head>
         <title>{{ article_headline }}</title>
-        <link rel="stylesheet" href="http://injusticewatch.org/interactives/cops-and-stops/assets/styles.css">
+        <link rel="stylesheet" href="http://www.injusticewatch.org/interactives/bond_project/static/styles/styles.css">
     </head>
 
     <body>
-  
+    	<img src="{{ article_header|safe }}" id="header">
         <h1>{{ article_headline }}</h1>
-        {{ article_body|safe }}
+        <div class="body-text-wrapper">{{ article_body|safe }}</div>
 
     </body>
 </html>

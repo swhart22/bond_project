@@ -12,8 +12,9 @@ from tinymce import models as tinymce_models
 
 class Article(models.Model):
 	headline = models.CharField(max_length=128, unique=True)
+	header = models.URLField("header Image URL (900px by 300px)")
 	body = tinymce_models.HTMLField()
-	slug = models.SlugField()
+	slug = models.SlugField("slug (autogenerates, don't mess with this)")
 	
 	def save(self, *args, **kwargs):
 		self.slug = slugify(self.headline)
