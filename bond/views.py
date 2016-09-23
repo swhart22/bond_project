@@ -19,6 +19,8 @@ def article(request, article_headline_slug):
 		context['article_headline'] = article.headline
 		context['article_body'] = article.body
 		context['article_header'] = article.header
+		context['byline'] = article.byline
+		context['bylinelink'] = article.bylinelink
 		
 	except Article.DoesNotExist:
 		

@@ -4,12 +4,16 @@
     <head>
         <title>{{ article_headline }}</title>
         <link rel="stylesheet" href="http://www.injusticewatch.org/interactives/bond_project/static/styles/styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     </head>
 
     <body>
     	<img src="{{ article_header|safe }}" id="header">
-        <h1>{{ article_headline }}</h1>
-        <div class="body-text-wrapper">{{ article_body|safe }}</div>
+        
+        <div class="body-text-wrapper">
+        <h2>{{ article_headline }}</h2>
+        <span class="byline"><a href="{{ bylinelink }}">{{ byline }}</a></span>
+        {{ article_body|safe }}</div>
 
     </body>
 </html>
